@@ -1,0 +1,120 @@
+/* GESTION DE LA PAGE */
+body
+{
+	margin: 0;
+	padding: 0;
+	/*Police de texte*/
+}
+
+#bloc_page
+{
+	width: 1920px;
+	margin: auto;
+	padding: auto;
+}
+
+/******* GESTION EN-TÊTE *******/
+header
+{
+	background-image: url("../img/bg/background_header.png");
+	width: 100%;
+	height: 898px;
+}
+
+#banner_nav
+{
+	background-color: rgba(0,0,0, 0.5);
+	width: 100%;
+	height: 90px;
+	border: 1px solid green;
+}
+
+#banner_nav ul
+{
+	display: flex;
+	margin-left: 360px;
+	margin-right: 360px;
+	background-color: red;
+}
+
+
+/******* GESTION BLOC ECOLE NUMERIQUE *******/
+#bloc_label
+{
+	width: 100%;
+	height: 481px;
+}
+
+/******* GESTION BLOC ENSEIGNEMENT ADAPTE *******/
+#bloc_enseign
+{
+	background-image: url("../img/bg/background_enseign.png");
+	width: 100%;
+	height: 445px;
+}
+
+/******* GESTINO BLOC METIER *******/
+#bloc_job
+{
+	background-color: rgb(62,62,62);
+	width: 100%;
+	height: 567px;
+}
+
+/******* GESTION BLOCS PROJET *******/
+#bloc_projet_1
+{
+	width: 100%;
+	height: 451px;
+}
+
+#bloc_projet_2
+{
+	background-image: url("../img/bg/background_projet.png");
+	width: 100%;
+	height: 300px;
+}
+
+/******* GESTION BLOC CENTRE FORMATION *******/
+#bloc_centre_formation
+{
+	width: 100%;
+	height: 833px;
+}
+
+
+/******* GESTION BLOC TEMOINS *******/
+#bloc_temoins
+{
+	background-image: url("../img/bg/background_temoignage.png");
+	width: 100%;
+	height: 605px;
+}
+
+/******* GESTION BLOC CONTACT *******/
+#contact
+{
+	background-image: url("../img/bg/background_contact.png");
+	width: 100%;
+	height: 801px;
+}
+
+/******* GESTION FOOTER *******/
+footer
+{
+	width: 100%;
+	height: auto;
+}
+
+#footer_1
+{
+	width: 100%;
+	height: 250px;
+}
+
+#footer_2
+{
+	background-color: rgb(62,62,62);
+	width: 100%;
+	height: 154px;
+}
