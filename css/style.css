@@ -7,7 +7,7 @@
 /* GESTION PAGE */
 body
 {
-	width: 1920px;
+	width: 1900px;
 	margin: auto;
 	font-family: "Open Sans";
 }
@@ -43,6 +43,11 @@ h5
 a
 {
 	text-decoration: none;
+}
+
+.separation
+{
+	color: white;
 }
 
 /* HAUT DE PAGE */
@@ -345,4 +350,178 @@ nav ul li a:hover
 	color: white;
 	background-image: url("../img/bg/background_temoignage.png");
 	height: 605px;
+}
+
+#contain_temoins
+{
+	margin-left: 360px;
+	margin-right: 360px;
+	padding-top: 64px;
+}
+
+.p_temoins
+{
+	margin-top: 70px;
+	color: rgba(255,255,255,0.5);
+	margin-bottom: 60px;
+}
+
+#float
+{
+	display: flex;
+}
+.quote
+{
+	width: 51px;
+	height: 39px;
+	margin-top: 62px;
+	margin-left: 865px;
+}
+
+#show_temoins
+{
+	width: 225px;
+	height: 50px;
+	line-height: 50px;
+	border: 2px solid white;
+	text-align: center;
+	margin-top: 60px;
+}
+
+#show_temoins a
+{
+	text-decoration: none;
+	color: white; 
+}
+
+/* CONTACT */
+#contact
+{
+	margin-top: -62px;
+	background-image: url("../img/bg/background_contact.png");
+	height: 800px;
+}
+
+#contain_contact
+{
+	margin-left: 360px;
+	margin-right: 360px;
+	margin-top: 60px; 
+}
+
+#contain_contact h2
+{
+	color: white;
+	padding-top: 60px;
+	margin-right: 1100px;
+}
+ /* Gestion du formulaire */
+#form_contact
+{
+	margin-top: 20px;
+	color: white;
+}
+
+textarea
+{
+	background-color: rgba(0,0,0,0);
+	overflow: hidden;
+	width: 100%;
+	height: 200px;
+	border: 2px solid white;
+}
+
+.send_contact
+{
+	background-image: url("../img/bg/background_envoi.png");
+	color: red;
+	height: 50px;
+	width: 200px;
+}
+
+#middle_button
+{
+	text-align: center;
+	margin-top: 45px;
+}
+
+#nom, #prenom, #mail, #cp, #ville
+{
+	background: none;
+	border: none;
+	height: 28px;
+}
+
+#nom /* Décalage entre nom et prénom */
+{
+	margin-right: 80px;
+}
+#cp /* Décalage entre code postal et ville */
+{
+	margin-right: 28px;
+}
+
+.flex_id
+{
+	display: flex;
+}
+.hr_id
+{
+	width: 251px;
+}
+
+.hr_mail
+{
+	width: 546px;
+}
+
+/* Alignement du paragraphe de contact*/
+.align_p_contact
+{
+	position: absolute;
+	
+	color: white;
+}
+
+/* FOOTER */
+footer
+{
+	text-align: center;
+	height: 400px;
+}
+
+#haut_footer
+{
+	height: 250px;
+}
+#haut_footer img
+{
+	margin-top: 30px;
+	margin-right: 55px;
+	margin-left: 55px;
+}
+
+#bas_footer
+{
+	display: flex;
+	 background-color: rgb(62,62,62);
+	 height: 150px;
+	 line-height: 150px;
+}
+
+#bas_footer div
+{
+	width: 50%;
+}
+
+#bas_footer div img
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#bas_footer a
+{
+	text-decoration: none;
+	color: white;
 }

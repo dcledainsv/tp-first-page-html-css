@@ -179,71 +179,110 @@
 
 		<!-- TEMOIGNAGE -->
 		<div id="temoins">
+			<div id="contain_temoins">
+				<div id="float">
+					<h2>Témoignages</h2>
+					<img src="img/logos/quote.png" alt="quote" class="quote">
+				</div>
 
-			<h2>Témoignages</h2>
 				<img src="img/bar/title_bar_6.png" alt="barre de sous-titre">
-				<img src="img/logos/quote.png" alt="quote">
+				
 
-				<p>j'ai intégré l'ACS pour une reconversion professionelle, sans autre expérience que celle de ma navigation internet, mais plus motivée que jamais à enfin apprendre un métier tehcnique qui me passione. Aujourd'hui je suis développeuse web dans l'entreprise qui m'a acceuillie en stage. j'ai encore beaucoup à apprendre, mais mon parcours prouve qu'avec du travail et de la persévérance, tout es possible !</p>
+				<p class="p_temoins">j'ai intégré l'ACS pour une reconversion professionelle, sans autre expérience que celle de ma navigation internet, mais plus motivée que jamais à enfin apprendre un métier tehcnique qui me passione. Aujourd'hui je suis développeuse web dans l'entreprise qui m'a acceuillie en stage. j'ai encore beaucoup à apprendre, mais mon parcours prouve qu'avec du travail et de la persévérance, tout es possible !</p>
 
-				<div>
+				<p>Julie | <strong>Promotion Wild Web Lion - Belfort</strong> | 2018</p>
+
+				<div id="show_temoins">
 					<a href="#">Voir tous les témoignages</a>
 				</div>
+			</div>
 		</div>
 
 		<!-- CONTACT -->
 		<div id="contact">
-			<h2>Contact</h2>	
-			<img src="img/bar/title_bar_6.png" alt="barre de sous-titre">
+			<div id="contain_contact">
+				<h2>Contact</h2>	
+					<img src="img/bar/title_bar_6.png" alt="barre de sous-titre">
 
-			<form method="post" action="">
-				<label for="nom">Nom*</label>
-				<input type="text" name="nom" id="nom">
+				<form method="post" action="" id="form_contact">
+					<div class="flex_id">
+						<div>
+							<label for="nom">Nom*</label>
+							<input type="text" name="nom" id="nom">
+							<hr class="hr_id">	
+						</div>
 
-				<label for="prenom">Prénom*</label>
-				<input type="text" name="prenom" id="prenom">
-				<br />
+						<div>
+							<label for="prenom">Prénom*</label>
+							<input type="text" name="prenom" id="prenom">
+							<hr class="hr_id">
+						</div>
+					</div>
 
-				<label for="mail">Email*</label>
-				<input type="email" name="mail" id="mail">
-				<br />
+					<br />
 
-				<label for="cp">Code postal*</label>
-				<input type="text" name="cp" id="cp">
+					<div>
+						<label for="mail">Email*</label>
+						<input type="email" name="mail" id="mail">
+						<hr class="hr_mail">
+					</div>
 
-				<label for="ville"></label>
-				<input type="text" name="ville" id="ville">
-				<br />
+					<br />
 
-				<label for="message">Message</label>
-				<br />
+					<div class="flex_id">
+						<div>
+							<label for="cp">Code postal*</label>
+							<input type="text" name="cp" id="cp">
+							<hr class="hr_id">
+						</div>
 
-				<textarea name="message" id="message" rows="" cols="">
-					
-				</textarea>
-				<br />
+						<div>
+							<label for="ville">Ville*</label>
+							<input type="text" name="ville" id="ville">
+							<hr class="hr_id">
+						</div>
+					</div>
+					<br />
 
-				<input type="submit" value="Envoyer">
-			</form>
+					<label for="message">Message</label>
+					<br /><br />
+
+					<textarea name="message" id="message" rows="" cols="">
+						
+					</textarea>
+					<br />
+
+					<div id="middle_button">
+						<input type="submit" value="Envoyer" class="send_contact">
+					</div>
+				</form>
+
+				
+			</div>
 		</div>
 
 		<!-- FOOTER -->
 		<footer>
-			<div>
+			<div id="haut_footer">
 				<img src="img/logo_online_formapro.png" alt="logo formapro">
 				<img src="img/logo_aformac.png" alt="logo aformac">
 				<img src="img/logo_acs_bottom.png" alt="logo access code school">
 				<img src="img/logo_access_robotique.png" alt="logo access robotique">
 			</div>
 
-			<div>
-				<a href="#">Onlineformapro</a>
-				<a href="#">Mensions légales</a>
+			<div id="bas_footer">
+				<div>
+					<a href="#">Onlineformapro</a>
+					<span class="separation">|</span>
+					<a href="#">Mensions légales</a>
+				</div>
 
-				<img src="img/logos/fb_icone.png" alt="logo facebook">
-				<img src="img/logos/twitter_logo.png" alt="logo twitter">
-				<img src="img/logos/mail_logo.png" alt="logo mail">
-				<img src="img/logos/website_logo.png" alt="website">
+				<div>
+					<img src="img/logos/fb_icone.png" alt="logo facebook">
+					<img src="img/logos/twitter_logo.png" alt="logo twitter">
+					<img src="img/logos/mail_logo.png" alt="logo mail">
+					<img src="img/logos/website_logo.png" alt="website">
+				</div>
 			</div>
 		</footer>
 	</body>
