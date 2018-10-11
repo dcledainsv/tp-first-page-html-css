@@ -32,6 +32,14 @@ h2
 	margin-top: 62px;
 }
 
+h5
+{
+	font-size: 34px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 62px;
+}
+
 a
 {
 	text-decoration: none;
@@ -83,6 +91,7 @@ nav ul li:last-child
 {
 	background-image: url("../img/bg/bg_inscription.png");
 }
+
 
 nav ul li a
 {
@@ -165,7 +174,8 @@ nav ul li a:hover
 	margin-right: 5px;
 }
 
-li {
+.nav_label li 
+{
     list-style-type: none; 
     background-image: url(../img/logos/puce.png); 
     background-repeat: no-repeat;
@@ -204,4 +214,135 @@ li {
 #each_job
 {
 	background-color: rgb(62,62,62);
+	color: white;
+	height: 567px;
+	display: flex;
+}
+
+.bar_each_job
+{
+	margin-left: 360px;
+}
+
+#left_each_job
+{
+	padding-left: 360px;
+	padding-right: 60px;
+	margin-top: 30px;
+}
+
+#inscription
+{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 2px solid white;
+	margin-left: 360px;
+	margin-top: 30px;
+}
+
+#inscription a
+{
+	text-decoration: none;
+	color: white;
+}
+
+#right_each_job
+{
+	margin-right: 360px;
+	margin-top: 112px;
+}
+
+#each_job div h2
+{
+	margin-left: 140px;
+}
+
+/* GESTION A CHACUN SON PROJET */
+#each_projet
+{
+	height: 452px;
+	display: flex;
+}
+
+#left_each_projet
+{
+	margin-left: 360px;
+	margin-top: 77px;
+}
+
+#right_each_projet img
+{
+	margin-top: 12px;
+	margin-bottom: 20px;
+
+}
+
+#right_each_projet
+{
+	margin-left: 45px;
+	padding-right: 320px;
+}
+
+#right_each_projet ul li
+{
+    list-style-type: none; 
+    background-image: url(../img/logos/puce.png); 
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+
+/* TITRE PRO */
+#title_pro
+{
+	background-image: url("../img/bg/background_projet.png");
+	height: 300px;
+	text-align: center;
+}
+#title_pro p
+{
+	margin-left: 480px;
+	margin-right: 480px;
+	font-size: 36px;
+	color: white;
+	padding-top: 70px;
+}
+
+/* NOS CENTRE DE FORMATION */
+#training_center
+{
+	height: 830px;
+	text-align: center;
+}
+
+#haut_training_center
+{
+	padding-top: 30px;
+	margin-right: 700px; 
+}
+
+.bar_training_center
+{
+	margin-right: 325px;
+	padding-bottom: 40px;
+}
+
+#bas_training_center img
+{
+	margin: 10px;
+}
+
+#bas_training_center img:hover
+{
+	/* A FAIRE */
+}
+
+/* TEMOINS */
+#temoins
+{
+	color: white;
+	background-image: url("../img/bg/background_temoignage.png");
+	height: 605px;
 }
